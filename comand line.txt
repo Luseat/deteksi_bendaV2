@@ -1,0 +1,9 @@
+py -m venv .venv
+
+.venv\Scripts\activate
+
+pip install ultralytics
+
+pip install opencv-python-headless
+
+run : py main.py
